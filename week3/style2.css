@@ -1,0 +1,27 @@
+body{
+   background-color: bisque;
+   background-image: url(bgphoto.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+
+div{
+   border: solid black 2px;
+   width: 60%;
+   margin: 30px auto;
+   height: 500px;
+   background-color: aqua;
+}
+
+p{
+   border: solid blue 2px;
+}
+
+.div1{
+   background-image: url(bgphoto.png);
+   background-repeat: no-repeat;
+   /* background-position: top; */
+   /* background-size: contain; */
+   /* background-size: 100% 100%; */
+   background-size: cover;
+}

@@ -1,0 +1,30 @@
+body{
+   background-color: bisque;
+}
+
+table{
+   /* border: solid 10px blue; */
+   height: 550px;
+   width: 800px;
+   border-collapse: collapse;
+   margin: auto;
+}
+
+tr{
+   border: solid 5px green;
+}
+
+td, th{
+   border: solid 5px red;
+   text-align: center;
+   vertical-align: top;
+   font-size: 25px;
+}
+
+tfoot{
+   background-color: aqua;
+}
+
+thead{
+   background-color: cyan;
+}
