@@ -1,0 +1,39 @@
+form, div{
+   border: solid 2px green;
+   width: 500px;
+   min-height: 100px;
+   margin: 20px auto;
+   background-color: antiquewhite;
+   padding: 20px;
+}
+
+div{
+   background-color: aqua;
+}
+
+.but{
+   padding: 10px;
+   cursor: pointer;
+   background-color: aqua;
+}
+
+.but:hover{
+   background-color: gray;
+   border-top-left-radius: 50px;
+}
+
+.inp {
+   padding: 8px;
+   font-style: italic;
+   border: none;
+   border-bottom: solid 3px green;
+   outline: none;
+}
+
+.inp:focus{
+   background-color: burlywood;
+}
+
+table td{
+   padding: 10px;
+}
