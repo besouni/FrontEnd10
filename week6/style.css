@@ -1,0 +1,71 @@
+.container1, .container2, .container3, .container4, .container5, .container6{
+   border: solid 1px black;
+   width: 70%;
+   margin: 10px auto;
+   background-color: antiquewhite;
+   min-height: 150px;
+   display: flex;
+}
+
+
+.container6{
+   justify-content: space-between;
+}
+
+.container6 div{
+   border: solid 2px green;
+   width: 150px;
+   background-color: aqua;
+}
+
+
+.container5{
+   min-height: 300px;
+   align-items: center;
+}
+
+.container5 div{
+   border: solid 2px green;
+   width: 150px;
+   background-color: aqua;
+}
+
+
+.container4{
+   justify-content: space-evenly;
+}
+
+.container4 div{
+   border: solid 2px green;
+   width: 150px;
+   background-color: aqua;
+}
+
+.container3 {
+   flex-wrap: wrap;
+}
+
+.container3 div{
+   border: solid 2px green;
+   width: 150px;
+   background-color: aqua;
+   margin-left: 20px;
+}
+
+.container2{
+   flex-direction: row-reverse;
+}
+
+.container2 div{
+   border: solid 2px green;
+   width: 150px;
+   background-color: aqua;
+   margin-left: 20px;
+}
+
+.container1 div{
+   border: solid 2px green;
+   width: 150px;
+   background-color: aqua;
+   margin-left: 20px;
+}
