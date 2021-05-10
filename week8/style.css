@@ -1,0 +1,42 @@
+.container{
+   width: 80%;
+   border: solid 2px black;
+   height: 200px;
+   margin: auto;
+   background-color: aqua;
+}
+
+@media (min-width:800px){
+   .container{
+      background-color: bisque;
+      height: 400px;
+   }
+}
+
+
+@media (max-width:600px){
+   .container{
+      background-color: blueviolet;
+      height: 600px;
+   }
+}
+
+
+.box{
+   width: 200px;
+   height: 200px;
+   background-color: aqua;
+   border: solid 20px gray;
+   margin: auto;
+   padding: 50px;
+}
+
+.box1{
+   width: 200px;
+   height: 200px;
+   background-color: aqua;
+   border: solid 20px gray;
+   margin: auto;
+   box-sizing: border-box;
+   padding: 50px;
+}
